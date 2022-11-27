@@ -1,3 +1,8 @@
 name: CI
 
-on: [push, pull_req
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubunt
