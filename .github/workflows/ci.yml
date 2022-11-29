@@ -5,4 +5,7 @@ on: [push, pull_request]
 jobs:
   build:
 
-    runs-on: ubunt
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: act
