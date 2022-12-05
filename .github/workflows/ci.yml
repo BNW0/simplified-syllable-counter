@@ -17,4 +17,5 @@ jobs:
       run: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
     - name: Maven Test
       run: mvn clean test -B -V
-  
+    - name: JaCoCo Report
+      run: m
