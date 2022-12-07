@@ -20,3 +20,5 @@ jobs:
     - name: JaCoCo Report
       run: mvn jacoco:report -B -V
     - name: Upload coverage to Codecov.io
+      run: >-
+        bash <(curl -s htt
