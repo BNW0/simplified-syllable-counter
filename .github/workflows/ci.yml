@@ -23,4 +23,5 @@ jobs:
       run: >-
         bash <(curl -s https://codecov.io/bash)
         -t ${{ secrets.CODECOV_TOKEN }}
-        -B
+        -B ${{ github.ref }}
+        -f ./target/site/j
