@@ -21,3 +21,17 @@ jobs:
           gpg
           --allow-secret-key-import
           --import
+          --batch
+          --no-tty
+          --yes
+          --quiet
+          <(echo "${{ secrets.GPG_KEY }}")
+      - name: Test and deploy to OSSRH
+        run: >-
+          echo "${{ secrets.MAVEN_SETTINGS_XML }}" > settings.xml
+          && mvn
+          -s settings.xml
+          -P release
+          -Dgpg.keyName=${{ secrets.GPG_KEYNAME }}
+          -Dgpg.passphrase="${{ secrets.GPG_PASSPHRASE }}"
+          clean test deploy
