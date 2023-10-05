@@ -18,4 +18,5 @@ package eu.crydee.syllablecounter;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.n
+import java.nio.charset.StandardCharsets;
+import jav
