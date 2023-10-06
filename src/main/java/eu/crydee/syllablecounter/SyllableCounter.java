@@ -32,4 +32,4 @@ import java.util.stream.Stream;
  * Fallback syllable counter.
  *
  * Based on the work of Thomas Jakobsen (thomj05@student.uia.no) and Thomas
- *
+ * Skardal (thomas04@student
