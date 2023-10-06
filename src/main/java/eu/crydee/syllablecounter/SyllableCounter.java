@@ -31,4 +31,5 @@ import java.util.stream.Stream;
 /**
  * Fallback syllable counter.
  *
- * Based on the work of Thomas Jakob
+ * Based on the work of Thomas Jakobsen (thomj05@student.uia.no) and Thomas
+ *
