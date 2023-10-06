@@ -29,4 +29,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * Fallback syllable 
+ * Fallback syllable counter.
+ *
+ * Based on the work of Thomas Jakob
