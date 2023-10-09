@@ -44,4 +44,5 @@ import java.util.stream.Stream;
  */
 public class SyllableCounter {
 
-    private final static String EXCEPTI
+    private final static String EXCEPTIONS_PATH
+            = "/eu/crydee/syllablecount
