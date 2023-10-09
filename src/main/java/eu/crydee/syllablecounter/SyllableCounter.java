@@ -42,4 +42,6 @@ import java.util.stream.Stream;
  * Their work is itself based on the algorithm in Greg Fast's perl module
  * Lingua::EN::Syllable.
  */
-public class SyllableCounter 
+public class SyllableCounter {
+
+    private final static String EXCEPTI
