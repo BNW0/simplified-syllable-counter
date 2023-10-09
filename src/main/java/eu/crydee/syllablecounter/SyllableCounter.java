@@ -40,4 +40,6 @@ import java.util.stream.Stream;
  *
  *
  * Their work is itself based on the algorithm in Greg Fast's perl module
- * Lingua::EN::Syllabl
+ * Lingua::EN::Syllable.
+ */
+public class SyllableCounter 
