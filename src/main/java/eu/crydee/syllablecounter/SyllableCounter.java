@@ -45,4 +45,5 @@ import java.util.stream.Stream;
 public class SyllableCounter {
 
     private final static String EXCEPTIONS_PATH
-            = "/eu/crydee/syllablecount
+            = "/eu/crydee/syllablecounter/english-exceptions.txt",
+            SUBS
