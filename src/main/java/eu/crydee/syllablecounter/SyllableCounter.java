@@ -47,4 +47,4 @@ public class SyllableCounter {
     private final static String EXCEPTIONS_PATH
             = "/eu/crydee/syllablecounter/english-exceptions.txt",
             SUBSYL_PATH = "/eu/crydee/syllablecounter/english-subsyls.txt",
-            AD
+            ADDSYL_PATH = "/eu/crydee/syllablecounter/e
