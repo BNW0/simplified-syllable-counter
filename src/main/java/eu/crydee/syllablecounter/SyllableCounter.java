@@ -49,4 +49,6 @@ public class SyllableCounter {
             SUBSYL_PATH = "/eu/crydee/syllablecounter/english-subsyls.txt",
             ADDSYL_PATH = "/eu/crydee/syllablecounter/english-addsyls.txt";
 
-    private final
+    private final Map<String, Integer> exceptions;
+
+    priva
