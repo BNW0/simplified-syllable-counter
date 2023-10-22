@@ -51,4 +51,6 @@ public class SyllableCounter {
 
     private final Map<String, Integer> exceptions;
 
-    private final Set<Pattern> subSyls, addSy
+    private final Set<Pattern> subSyls, addSyls;
+
+    private final Set<Character> vo
