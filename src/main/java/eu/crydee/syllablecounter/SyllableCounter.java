@@ -56,4 +56,4 @@ public class SyllableCounter {
     private final Set<Character> vowels;
 
     // Package protected for testing purposes
-    Stream<String> getRes
+    Stream<String> getRessourceLines(Class<?> clazz, String filepa
