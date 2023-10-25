@@ -53,4 +53,6 @@ public class SyllableCounter {
 
     private final Set<Pattern> subSyls, addSyls;
 
-    private final Set<Character> vo
+    private final Set<Character> vowels;
+
+    // Package protected for testing pur
