@@ -55,4 +55,5 @@ public class SyllableCounter {
 
     private final Set<Character> vowels;
 
-    // Package protected for testing pur
+    // Package protected for testing purposes
+    Stream<String> getRes
