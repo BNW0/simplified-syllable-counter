@@ -58,4 +58,4 @@ public class SyllableCounter {
     // Package protected for testing purposes
     Stream<String> getRessourceLines(Class<?> clazz, String filepath) {
         try (final BufferedReader fileReader = new BufferedReader(
-                new InputStream
+                new InputStreamReader(clazz.getResourceAsStream(filepath)
