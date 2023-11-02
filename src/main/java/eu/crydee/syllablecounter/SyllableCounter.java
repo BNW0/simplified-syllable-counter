@@ -60,4 +60,5 @@ public class SyllableCounter {
         try (final BufferedReader fileReader = new BufferedReader(
                 new InputStreamReader(clazz.getResourceAsStream(filepath),
                 StandardCharsets.UTF_8)
-  
+        )) {
+            // Collect the 
