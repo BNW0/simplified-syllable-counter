@@ -61,4 +61,5 @@ public class SyllableCounter {
                 new InputStreamReader(clazz.getResourceAsStream(filepath),
                 StandardCharsets.UTF_8)
         )) {
-            // Collect the read lines before converting back to a Java stre
+            // Collect the read lines before converting back to a Java stream
+            // so that we can ensure that
