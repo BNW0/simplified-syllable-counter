@@ -63,4 +63,4 @@ public class SyllableCounter {
         )) {
             // Collect the read lines before converting back to a Java stream
             // so that we can ensure that we close the InputStream and prevent leaks
-            return fileRead
+            return fileReader.lines().collect(Collectors.toL
