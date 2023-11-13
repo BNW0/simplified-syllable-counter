@@ -62,4 +62,5 @@ public class SyllableCounter {
                 StandardCharsets.UTF_8)
         )) {
             // Collect the read lines before converting back to a Java stream
-            // so that we can ensure that we close the InputStream and prevent 
+            // so that we can ensure that we close the InputStream and prevent leaks
+            return fileRead
