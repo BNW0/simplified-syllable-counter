@@ -66,4 +66,7 @@ public class SyllableCounter {
             return fileReader.lines().collect(Collectors.toList()).stream();
         } catch (IOException e) {
             throw new RuntimeException(e);
- 
+        }
+    }
+
+    public SyllableCoun
