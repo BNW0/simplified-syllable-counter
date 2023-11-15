@@ -65,4 +65,5 @@ public class SyllableCounter {
             // so that we can ensure that we close the InputStream and prevent leaks
             return fileReader.lines().collect(Collectors.toList()).stream();
         } catch (IOException e) {
-         
+            throw new RuntimeException(e);
+ 
