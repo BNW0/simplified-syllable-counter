@@ -70,4 +70,5 @@ public class SyllableCounter {
     }
 
     public SyllableCounter() {
-        exceptions = getRessou
+        exceptions = getRessourceLines(getClass(), EXCEPTIONS_PATH)
+ 
