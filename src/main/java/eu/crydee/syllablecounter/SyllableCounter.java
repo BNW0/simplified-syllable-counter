@@ -69,4 +69,5 @@ public class SyllableCounter {
         }
     }
 
-    public SyllableCoun
+    public SyllableCounter() {
+        exceptions = getRessou
