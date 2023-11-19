@@ -71,4 +71,5 @@ public class SyllableCounter {
 
     public SyllableCounter() {
         exceptions = getRessourceLines(getClass(), EXCEPTIONS_PATH)
-                .filter(line
+                .filter(line -> !line.isEmpty() && !line.startsWith("#"))
+ 
