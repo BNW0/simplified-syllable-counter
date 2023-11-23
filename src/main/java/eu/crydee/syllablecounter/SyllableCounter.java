@@ -74,3 +74,4 @@ public class SyllableCounter {
                 .filter(line -> !line.isEmpty() && !line.startsWith("#"))
                 .map(line -> line.split(" "))
                 .peek(fields -> {
+                    if (fields.length != 2
