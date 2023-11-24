@@ -76,4 +76,4 @@ public class SyllableCounter {
                 .peek(fields -> {
                     if (fields.length != 2) {
                         System.err.println("couldn't parse the exceptions "
-       
+                                + "file. Didn't find 2
