@@ -75,4 +75,5 @@ public class SyllableCounter {
                 .map(line -> line.split(" "))
                 .peek(fields -> {
                     if (fields.length != 2) {
-                        System.err
+                        System.err.println("couldn't parse the exceptions "
+       
