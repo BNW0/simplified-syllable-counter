@@ -78,4 +78,6 @@ public class SyllableCounter {
                         System.err.println("couldn't parse the exceptions "
                                 + "file. Didn't find 2 fields in one of "
                                 + "the lines.");
-             
+                    }
+                })
+      
