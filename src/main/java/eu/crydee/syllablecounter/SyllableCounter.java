@@ -82,4 +82,4 @@ public class SyllableCounter {
                 })
                 .collect(Collectors.toMap(
                         fields -> fields[1],
-                 
+                        fields -> Integer.parseInt(fields
