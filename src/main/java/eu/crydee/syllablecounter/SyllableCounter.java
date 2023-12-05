@@ -80,4 +80,5 @@ public class SyllableCounter {
                                 + "the lines.");
                     }
                 })
-                .collect(Collectors.t
+                .collect(Collectors.toMap(
+                        fields ->
