@@ -84,3 +84,4 @@ public class SyllableCounter {
                         fields -> fields[1],
                         fields -> Integer.parseInt(fields[0])));
         addSyls = getRessourceLines(getClass(), ADDSYL_PATH)
+                .filter(line -> !line.is
