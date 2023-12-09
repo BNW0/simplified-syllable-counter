@@ -85,4 +85,5 @@ public class SyllableCounter {
                         fields -> Integer.parseInt(fields[0])));
         addSyls = getRessourceLines(getClass(), ADDSYL_PATH)
                 .filter(line -> !line.isEmpty() && !line.startsWith("#"))
-         
+                .map(Pattern::compile)
+  
