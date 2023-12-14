@@ -88,4 +88,4 @@ public class SyllableCounter {
                 .map(Pattern::compile)
                 .collect(Collectors.toSet());
         subSyls = getRessourceLines(getClass(), SUBSYL_PATH)
-                .fil
+                .filter(line -> !line.isEmpty() && !line.startsW
