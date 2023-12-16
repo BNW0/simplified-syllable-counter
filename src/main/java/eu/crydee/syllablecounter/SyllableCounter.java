@@ -91,4 +91,4 @@ public class SyllableCounter {
                 .filter(line -> !line.isEmpty() && !line.startsWith("#"))
                 .map(Pattern::compile)
                 .collect(Collectors.toSet());
-        vowels = n
+        vowels = new HashSet<>(Arrays.asList('a', 'e', 'i
