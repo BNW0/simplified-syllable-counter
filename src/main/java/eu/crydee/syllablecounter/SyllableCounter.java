@@ -90,4 +90,5 @@ public class SyllableCounter {
         subSyls = getRessourceLines(getClass(), SUBSYL_PATH)
                 .filter(line -> !line.isEmpty() && !line.startsWith("#"))
                 .map(Pattern::compile)
-                .collect(Collec
+                .collect(Collectors.toSet());
+        vowels = n
