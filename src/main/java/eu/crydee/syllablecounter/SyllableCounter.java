@@ -95,4 +95,4 @@ public class SyllableCounter {
     }
 
     /**
-     *
+     * Main point of this library. Metho
