@@ -95,4 +95,5 @@ public class SyllableCounter {
     }
 
     /**
-     * Main point of this library. Metho
+     * Main point of this library. Method to count the number of syllables of a
+     *
