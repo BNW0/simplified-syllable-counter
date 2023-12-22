@@ -99,4 +99,4 @@ public class SyllableCounter {
      * word using a fallback method as documented at the class level of this
      * documentation.
      *
-   
+     * @param word the word you wan
