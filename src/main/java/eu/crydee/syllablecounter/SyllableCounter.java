@@ -96,4 +96,7 @@ public class SyllableCounter {
 
     /**
      * Main point of this library. Method to count the number of syllables of a
-     * word using a fallback method as documented at the class level 
+     * word using a fallback method as documented at the class level of this
+     * documentation.
+     *
+   
