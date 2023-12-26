@@ -100,4 +100,4 @@ public class SyllableCounter {
      * documentation.
      *
      * @param word the word you want to count the syllables of.
-  
+     * @return the number of syllables of the 
