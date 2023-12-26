@@ -102,4 +102,5 @@ public class SyllableCounter {
      * @param word the word you want to count the syllables of.
      * @return the number of syllables of the word.
      */
-    public int count(final 
+    public int count(final String word) {
+        if (word == null) {
