@@ -104,3 +104,4 @@ public class SyllableCounter {
      */
     public int count(final String word) {
         if (word == null) {
+            throw new NullPointerEx
