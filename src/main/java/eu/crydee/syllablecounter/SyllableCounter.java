@@ -107,4 +107,5 @@ public class SyllableCounter {
             throw new NullPointerException("the word parameter was null.");
         } else if (word.length() == 0) {
             return 0;
-        } else if 
+        } else if (word.length() == 1) {
+           
