@@ -108,4 +108,7 @@ public class SyllableCounter {
         } else if (word.length() == 0) {
             return 0;
         } else if (word.length() == 1) {
-           
+            return 1;
+        }
+
+        final String 
