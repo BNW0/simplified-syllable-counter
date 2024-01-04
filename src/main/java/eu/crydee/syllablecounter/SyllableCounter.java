@@ -111,4 +111,6 @@ public class SyllableCounter {
             return 1;
         }
 
-        final String 
+        final String lowerCase = word.toLowerCase(Locale.ENGLISH);
+
+  
