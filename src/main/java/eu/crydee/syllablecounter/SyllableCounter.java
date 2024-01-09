@@ -117,4 +117,5 @@ public class SyllableCounter {
             return exceptions.get(lowerCase);
         }
 
-        final String prunne
+        final String prunned;
+        if (lowerCase.charAt(lowerCase.lengt
