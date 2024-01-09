@@ -114,4 +114,5 @@ public class SyllableCounter {
         final String lowerCase = word.toLowerCase(Locale.ENGLISH);
 
         if (exceptions.containsKey(lowerCase)) {
-    
+            return exceptions.get(lowerCase);
+  
