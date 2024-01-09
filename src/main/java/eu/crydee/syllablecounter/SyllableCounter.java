@@ -115,4 +115,6 @@ public class SyllableCounter {
 
         if (exceptions.containsKey(lowerCase)) {
             return exceptions.get(lowerCase);
-  
+        }
+
+        final String prunne
