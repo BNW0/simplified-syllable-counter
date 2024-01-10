@@ -119,4 +119,4 @@ public class SyllableCounter {
 
         final String prunned;
         if (lowerCase.charAt(lowerCase.length() - 1) == 'e') {
-            pru
+            prunned = lowerCase.substring(0, lowerCase.
