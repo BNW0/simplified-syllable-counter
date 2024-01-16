@@ -125,4 +125,5 @@ public class SyllableCounter {
         }
 
         int count = 0;
+        boolean prevIsVowel = false;
        
