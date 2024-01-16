@@ -126,4 +126,4 @@ public class SyllableCounter {
 
         int count = 0;
         boolean prevIsVowel = false;
-       
+        for (char c : prunned.toCharArray()) 
