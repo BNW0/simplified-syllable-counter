@@ -128,4 +128,5 @@ public class SyllableCounter {
         boolean prevIsVowel = false;
         for (char c : prunned.toCharArray()) {
             final boolean isVowel = vowels.contains(c);
-            if (i
+            if (isVowel && !prevIsVowel) {
+       
