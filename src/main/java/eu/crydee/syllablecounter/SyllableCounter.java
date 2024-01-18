@@ -131,3 +131,5 @@ public class SyllableCounter {
             if (isVowel && !prevIsVowel) {
                 ++count;
             }
+            prevIsVowel = isVowel;
+      
