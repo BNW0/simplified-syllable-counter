@@ -133,4 +133,5 @@ public class SyllableCounter {
             }
             prevIsVowel = isVowel;
         }
-        count +
+        count += addSyls.stream()
+                
