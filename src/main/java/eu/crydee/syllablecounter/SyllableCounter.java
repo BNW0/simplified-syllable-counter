@@ -134,4 +134,6 @@ public class SyllableCounter {
             prevIsVowel = isVowel;
         }
         count += addSyls.stream()
-                .filter(pattern -> pattern.matcher(prunned).
+                .filter(pattern -> pattern.matcher(prunned).find())
+                .count();
+    
