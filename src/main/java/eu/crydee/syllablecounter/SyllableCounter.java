@@ -140,4 +140,6 @@ public class SyllableCounter {
                 .filter(pattern -> pattern.matcher(prunned).find())
                 .count();
 
-        return count 
+        return count > 0 ? count : 1;
+    }
+}
