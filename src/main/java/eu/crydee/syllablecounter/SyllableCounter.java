@@ -138,4 +138,6 @@ public class SyllableCounter {
                 .count();
         count -= subSyls.stream()
                 .filter(pattern -> pattern.matcher(prunned).find())
-             
+                .count();
+
+        return count 
