@@ -11,4 +11,9 @@ sl$
 [aeiou]{3}
 ^mc
 ism$
-(.)(?!\1)(
+(.)(?!\1)([aeiouy])\2l$
+[^l]llien
+^coad.
+^coag.
+^coal.
+^co
