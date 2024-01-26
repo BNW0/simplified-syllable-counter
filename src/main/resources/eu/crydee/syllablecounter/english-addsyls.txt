@@ -7,3 +7,8 @@ ii
 [aeiouy]bl$
 mbl$
 tl$
+sl$
+[aeiou]{3}
+^mc
+ism$
+(.)(?!\1)(
