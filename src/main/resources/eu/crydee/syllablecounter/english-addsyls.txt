@@ -20,4 +20,6 @@ ism$
 (.)(?!\1)[gq]ua(.)(?!\2)[aeiou]
 dnt$
 thm$
-i
+ier$
+iest$
+[aeiouy]ing$
