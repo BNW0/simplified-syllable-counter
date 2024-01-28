@@ -16,4 +16,8 @@ ism$
 ^coad.
 ^coag.
 ^coal.
-^co
+^coax.
+(.)(?!\1)[gq]ua(.)(?!\2)[aeiou]
+dnt$
+thm$
+i
