@@ -11,4 +11,5 @@ sia$
 ves$
 geous$
 gious$
-[^aei
+[^aeiou]eful$
+.red$
