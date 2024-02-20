@@ -17,4 +17,6 @@ package eu.crydee.syllablecounter;
 
 import org.junit.Test;
 
-import
+import static org.junit.Assert.assertEquals;
+
+/**
