@@ -22,4 +22,6 @@ import static org.junit.Assert.assertEquals;
 /**
  * @author m09
  */
-public class
+public class SyllableCounterTest {
+
+    private final 
