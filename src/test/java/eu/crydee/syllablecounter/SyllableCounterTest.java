@@ -24,4 +24,4 @@ import static org.junit.Assert.assertEquals;
  */
 public class SyllableCounterTest {
 
-    private final 
+    private final static String EXCEPTIONS_PATH = 
