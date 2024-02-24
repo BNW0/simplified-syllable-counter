@@ -25,4 +25,4 @@ import static org.junit.Assert.assertEquals;
 public class SyllableCounterTest {
 
     private final static String EXCEPTIONS_PATH = "/eu/crydee/syllablecounter/english-exceptions.txt",
-            TEST_PATH = "/eu/c
+            TEST_PATH = "/eu/crydee/syllablecounter/english
