@@ -28,4 +28,4 @@ public class SyllableCounterTest {
             TEST_PATH = "/eu/crydee/syllablecounter/english-test.txt";
 
     /**
-     * Test of count m
+     * Test of count method, of class SyllableCounter
