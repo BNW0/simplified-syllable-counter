@@ -31,4 +31,4 @@ public class SyllableCounterTest {
      * Test of count method, of class SyllableCounter.
      */
     @Test
-    public void te
+    public void testCountFromTestFile() {
