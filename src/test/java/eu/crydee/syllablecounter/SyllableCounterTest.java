@@ -28,4 +28,7 @@ public class SyllableCounterTest {
             TEST_PATH = "/eu/crydee/syllablecounter/english-test.txt";
 
     /**
-     * Test of count method, of class SyllableCounter
+     * Test of count method, of class SyllableCounter.
+     */
+    @Test
+    public void te
