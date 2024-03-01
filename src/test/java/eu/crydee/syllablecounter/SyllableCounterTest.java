@@ -32,3 +32,4 @@ public class SyllableCounterTest {
      */
     @Test
     public void testCountFromTestFile() {
+        System.out.println("count from test fi
