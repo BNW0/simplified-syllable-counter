@@ -34,4 +34,7 @@ public class SyllableCounterTest {
     public void testCountFromTestFile() {
         System.out.println("count from test file");
         testFromFile(TEST_PATH);
-  
+    }
+
+    /**
+     * Test of count method, 
