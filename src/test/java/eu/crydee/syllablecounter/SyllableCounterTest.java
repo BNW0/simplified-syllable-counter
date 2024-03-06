@@ -37,4 +37,6 @@ public class SyllableCounterTest {
     }
 
     /**
-     * Test of count method, 
+     * Test of count method, of class SyllableCounter.
+     */
+    @Tes
