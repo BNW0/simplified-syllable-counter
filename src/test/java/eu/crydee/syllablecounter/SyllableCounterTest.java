@@ -39,4 +39,4 @@ public class SyllableCounterTest {
     /**
      * Test of count method, of class SyllableCounter.
      */
-    @Tes
+    @Test(expected = NullPointerException.
