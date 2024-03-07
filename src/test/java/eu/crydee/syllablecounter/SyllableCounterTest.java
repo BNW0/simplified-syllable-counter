@@ -40,4 +40,6 @@ public class SyllableCounterTest {
      * Test of count method, of class SyllableCounter.
      */
     @Test(expected = NullPointerException.class)
-    public void testCountNull()
+    public void testCountNull() {
+        System.out.println("count null");
+   
