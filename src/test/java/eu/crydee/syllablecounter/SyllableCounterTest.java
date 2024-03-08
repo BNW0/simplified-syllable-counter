@@ -42,4 +42,4 @@ public class SyllableCounterTest {
     @Test(expected = NullPointerException.class)
     public void testCountNull() {
         System.out.println("count null");
-   
+        new SyllableCounter().c
