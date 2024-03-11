@@ -46,4 +46,7 @@ public class SyllableCounterTest {
     }
 
     /**
-     * Test of count method, of clas
+     * Test of count method, of class SyllableCounter.
+     */
+    @Test
+    publ
