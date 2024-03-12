@@ -49,4 +49,5 @@ public class SyllableCounterTest {
      * Test of count method, of class SyllableCounter.
      */
     @Test
-    publ
+    public void testCountEmpty() {
+      
