@@ -50,4 +50,4 @@ public class SyllableCounterTest {
      */
     @Test
     public void testCountEmpty() {
-      
+        System.out.println("count empty
