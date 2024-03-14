@@ -55,4 +55,4 @@ public class SyllableCounterTest {
     }
 
     /**
-     *
+     * Test of count method, of class 
