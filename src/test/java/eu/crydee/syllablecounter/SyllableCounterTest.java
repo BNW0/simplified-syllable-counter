@@ -57,4 +57,5 @@ public class SyllableCounterTest {
     /**
      * Test of count method, of class SyllableCounter.
      */
-    @T
+    @Test
+    public void testCountExceptions() 
