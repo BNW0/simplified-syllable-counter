@@ -51,4 +51,8 @@ public class SyllableCounterTest {
     @Test
     public void testCountEmpty() {
         System.out.println("count empty");
-        assertEquals(0, new SyllableCoun
+        assertEquals(0, new SyllableCounter().count(""));
+    }
+
+    /**
+     *
