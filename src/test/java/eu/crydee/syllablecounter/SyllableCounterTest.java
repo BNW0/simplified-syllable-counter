@@ -58,4 +58,5 @@ public class SyllableCounterTest {
      * Test of count method, of class SyllableCounter.
      */
     @Test
-    public void testCountExceptions() 
+    public void testCountExceptions() {
+        System.out.println("count excep
