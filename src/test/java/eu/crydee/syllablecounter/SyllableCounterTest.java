@@ -63,4 +63,5 @@ public class SyllableCounterTest {
         testFromFile(EXCEPTIONS_PATH);
     }
 
-    private void testF
+    private void testFromFile(String filepath) {
+        SyllableC
