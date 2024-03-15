@@ -59,4 +59,5 @@ public class SyllableCounterTest {
      */
     @Test
     public void testCountExceptions() {
-        System.out.println("count excep
+        System.out.println("count exceptions");
+        testFromFile(EXCEPT
