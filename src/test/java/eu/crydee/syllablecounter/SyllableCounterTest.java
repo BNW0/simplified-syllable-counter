@@ -60,4 +60,7 @@ public class SyllableCounterTest {
     @Test
     public void testCountExceptions() {
         System.out.println("count exceptions");
-        testFromFile(EXCEPT
+        testFromFile(EXCEPTIONS_PATH);
+    }
+
+    private void testF
