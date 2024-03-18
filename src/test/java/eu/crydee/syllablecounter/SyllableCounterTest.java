@@ -64,4 +64,5 @@ public class SyllableCounterTest {
     }
 
     private void testFromFile(String filepath) {
-        SyllableC
+        SyllableCounter sc = new SyllableCounter();
+ 
