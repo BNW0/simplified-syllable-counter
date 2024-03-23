@@ -65,4 +65,4 @@ public class SyllableCounterTest {
 
     private void testFromFile(String filepath) {
         SyllableCounter sc = new SyllableCounter();
- 
+        sc.getRessourceLines(getClass
