@@ -66,4 +66,5 @@ public class SyllableCounterTest {
     private void testFromFile(String filepath) {
         SyllableCounter sc = new SyllableCounter();
         sc.getRessourceLines(getClass(), filepath).filter(line -> !line.isEmpty()).filter(line -> !line.startsWith("#"))
-                .forEach(line ->
+                .forEach(line -> {
+                    String[] fie
