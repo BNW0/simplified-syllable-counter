@@ -68,4 +68,5 @@ public class SyllableCounterTest {
         sc.getRessourceLines(getClass(), filepath).filter(line -> !line.isEmpty()).filter(line -> !line.startsWith("#"))
                 .forEach(line -> {
                     String[] fields = line.split(" ");
-           
+                    if (fields.length != 2) {
+          
