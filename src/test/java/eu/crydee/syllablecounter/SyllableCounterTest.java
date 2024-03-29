@@ -69,4 +69,4 @@ public class SyllableCounterTest {
                 .forEach(line -> {
                     String[] fields = line.split(" ");
                     if (fields.length != 2) {
-          
+                        System.err.println("coul
