@@ -70,4 +70,6 @@ public class SyllableCounterTest {
                     String[] fields = line.split(" ");
                     if (fields.length != 2) {
                         System.err.println("couldn't parse " + filepath + ". Didn't "
-                                + "find 2 fields in one of the non-comment " + "l
+                                + "find 2 fields in one of the non-comment " + "lines.");
+                    }
+  
