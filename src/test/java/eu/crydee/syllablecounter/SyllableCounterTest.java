@@ -72,4 +72,7 @@ public class SyllableCounterTest {
                         System.err.println("couldn't parse " + filepath + ". Didn't "
                                 + "find 2 fields in one of the non-comment " + "lines.");
                     }
-                    assertEquals("Wrong results for " + fields[1], Integer.parseInt(fields[0]), sc.count(fields[1])
+                    assertEquals("Wrong results for " + fields[1], Integer.parseInt(fields[0]), sc.count(fields[1]));
+                });
+    }
+}
